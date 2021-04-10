@@ -14,7 +14,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://lanye.gitee.io/lymv
+url: http://hamapi223.github.io//lymv
 root: /lymv
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -104,4 +104,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/hamapi223/lymv.git
+  branch: master
