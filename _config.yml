@@ -6,8 +6,8 @@
 title: 蓝月
 subtitle: '一起来看电影吧，无需VIP'
 description: '一起来看电影吧，无需VIP'
-keywords:
-author: John Doe
+keywords: 电影 免费
+author: 赵公明
 language: zh-CN
 timezone: ''
 
@@ -16,6 +16,7 @@ timezone: ''
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://hamapi223.github.io//lymv
 root: /lymv
+#root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -99,7 +100,14 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: beautiful-hexo
+
+archive_generator:
+  per_page: 0
+  yearly: false
+  monthly: false
+  daily: false
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
